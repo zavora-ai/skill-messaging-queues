@@ -1,12 +1,11 @@
 ---
 name: messaging-queues
 description: Orchestrate messaging operations — send push notifications, SMS, webhooks, manage channels, queue messages, and broadcast to groups. Use when sending push notifications, SMS messages, firing webhooks, managing message channels, queuing async tasks, or broadcasting to user groups.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-messaging server connected.
 allowed-tools: [send_push, broadcast, send_sms, fire_webhook, create_channel, send_message, get_messages, enqueue, dequeue, queue_status, subscribe_webhook]
-tags: [communication, messaging, push, sms, webhooks, queues, broadcast]
 metadata:
+  category: communication
   author: Zavora AI
   mcp-server: mcp-messaging
   success-criteria:
